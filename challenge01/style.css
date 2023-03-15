@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 14px;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -25,6 +29,7 @@ body {
   background: #23424a;
   color: white;
 
+  max-width: 800px;
   width: 80%;
   margin: 0 auto;
 

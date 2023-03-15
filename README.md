@@ -8,3 +8,4 @@
 
 * [Desafio 01](https://ccostafrias.github.io/responsive-layouts-course/challenge01/)
 * [Desafio 02](https://ccostafrias.github.io/responsive-layouts-course/challenge02/)
+* [Desafio 03](https://ccostafrias.github.io/responsive-layouts-course/challenge03/)

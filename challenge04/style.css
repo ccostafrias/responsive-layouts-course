@@ -1,0 +1,82 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  margin-bottom: .8em;
+}
+
+header {
+  background-color: #23424a;
+  color: white;
+}
+
+header p {
+  text-align: justify;
+  margin-bottom: 3em;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 5em 4em;
+}
+
+.inner-content {
+  width: 60%;
+}
+
+.bttn {
+  display: block;
+  width: fit-content;
+  padding: .8em 1.5em;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #38CFD9;
+  font-weight: 500;
+  color: #3a3a3a;
+  transition: all .2s ease;
+}
+
+.bttn:focus,
+.bttn:hover {
+  opacity: .75;
+}
+
+
+.article-container {
+  display: flex;
+  gap: 2em;
+}
+
+.article-container article {
+  width: 100%;
+}
+
+.article-container article h2,
+.article-container article p {
+  text-align: center;
+}
+
+.container-dark {
+  background-color: #136c72;
+  color: white;
+}
+
+.container-light h2{
+  color: #87629A;
+}

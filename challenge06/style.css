@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+*, *::after, *::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: clamp(10px, 1.5vw, 12px);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3125rem;
+  font-weight: 300;
+  color: #3a3a3a;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+  margin-bottom: .7em;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.justify {
+  text-align: justify;
+}
+
+header {
+  background-color: #23424a;
+  color: white;
+}
+
+.header-img {
+  display: flex;
+  background-image: url('img/hero-img.jpg');
+  background-size: cover;
+}
+
+.nav {
+  background-color: #136C72;
+}
+
+.nav-list {
+  display: flex;
+  gap: 1em;
+  padding: 1.5em 4em;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  transition: all .2s ease;
+}
+
+.nav-link-button {
+  background-color: white;
+  color: #136C72;
+  border-radius: 50px;
+  padding: .4em .9em;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  opacity: .75;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 75rem;
+}
+
+.two-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5em 4em;
+}
+
+.two-columns > :first-child {
+  width: 55%;
+}
+
+.two-columns > :nth-child(2) {
+  width: 40%;
+}
+
+.bttn {
+  display: block;
+  width: fit-content;
+  padding: .8em 1.5em;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #38CFD9;
+  font-weight: 700;
+  color: #3a3a3a;
+  transition: all .2s ease;
+}
+
+.bttn:focus,
+.bttn:hover {
+  opacity: .75;
+}
+
+.aside-item {
+  text-align: center;
+}
+
+.three-rows {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  gap: 2em;
+  background-color: #136C72;
+  color: white;
+}
+
+.article h2 {
+  color: #136C72;
+}

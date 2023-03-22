@@ -68,10 +68,22 @@ header {
   background-color: #136C72;
 }
 
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 1.5em 4em;
+}
+
+.nav-list-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-list {
   display: flex;
   gap: 1em;
-  padding: 1.5em 4em;
 }
 
 .nav-link {

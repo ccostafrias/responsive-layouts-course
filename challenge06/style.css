@@ -157,3 +157,21 @@ header {
 .article h2 {
   color: #136C72;
 }
+
+@media (max-width: 600px) {
+  .two-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .two-columns > :first-child,
+  .two-columns > :nth-child(2) {
+    width: 100%;
+  }
+
+  .header-img {
+    aspect-ratio: 193 / 146;
+  }
+
+}
